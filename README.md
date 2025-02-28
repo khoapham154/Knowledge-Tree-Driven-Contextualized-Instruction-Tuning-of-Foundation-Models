@@ -9,17 +9,19 @@ Epilepsy affects over 50 million people worldwide, with antiseizure medications 
 We construct our instruction-tuning dataset using the following script:
 ```bash
 python Dataset_Instruction/gpt_4o_clinical.py
+```
 
-2. Instruction-Tuning of Foundation Models
+### 2. Instruction-Tuning of Foundation Models
 To perform instruction tuning, execute the following script:
 ```bash
 python Experiment/combined_pipeline.py
+```
 
-
-3. Inference
+### 3. Inference
 For inference, use the following script:
 ``` bash
 python Inference/inference.py
+```
 
 ## MRI Entity Distribution
 

@@ -15,7 +15,7 @@ An integral part of TREE-TUNE is the detailed analysis of MRI entity distributio
   
 ![MRI Entities Distribution](MRI_entities/Entities_distribution.png)
 
-For a complete view of the entity taxonomy, refer to: `MRI_entities/Knowledge_MRI_Tree.conf`
+For a complete view of the entity taxonomy, refer to: [Knowledge_MRI_Tree](MRI_entities/Knowledge_MRI_Tree.conf)
 
 ## Impact
 

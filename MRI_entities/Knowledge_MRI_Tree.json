@@ -1,0 +1,202 @@
+{
+    "entities": {
+      "Entities": {
+        "Developmental-malformation": {
+          "Hypothalamic-hamartoma": {}
+        },
+        "Dysplasia": {},
+        "Early-life-destructive-lesion": {
+          "Porencephaly": {},
+          "Ulegyria": {},
+          "Hemiatrophy": {},
+          "Leukomalacia": {},
+          "Perinatal-ischemic-lesion": {}
+        },
+        "Encephalocele": {},
+        "Gliosis-or-encephalomalacia-not-otherwise-specified": {},
+        "Hippocampal-sclerosis": {
+          "Abnormal-hippocampal-morphology": {
+            "Flattened-or-inclined-hippocampus": {}
+          },
+          "Hippocampal-atrophy": {},
+          "Hippocampal-hyperintense-T2-or-FLAIR-signal": {},
+          "Loss-of-normal-internal-hippocampal-structure": {}
+        },
+        "Inflammatory-infectious": {
+          "Abscess": {},
+          "Cysticercosis": {},
+          "Encephalitis-Other": {},
+          "Limbic-encephalitis": {},
+          "Rasmussen-encephalitis": {},
+          "Sarcoidosis": {},
+          "Vasculitis": {}
+        },
+        "Lesion": {
+          "Lipoma": {},
+          "Other-cystic-lesion": {},
+          "Unspecified-lesion": {}
+        },
+        "Malformation-of-cortical-development": {
+          "Focal-cortical-dysplasia": {
+            "Abnormal-gyrus": {},
+            "Bottom-of-the-sulcus-dysplasia": {},
+            "Cortical-thickening": {},
+            "Poor-grey-white-matter-delineation": {}
+          },
+          "Hemimegalencephaly": {},
+          "Heterotopia": {
+            "Grey-matter-heterotopia": {},
+            "Periventricular-nodular-heterotopia": {},
+            "Subcortical-laminar-heterotopia": {},
+            "Subcortical-nodular-heterotopia": {}
+          },
+          "Lissencephaly-agyria-pachygyria": {},
+          "Pachymicrogyria": {},
+          "Polymicrogyria": {},
+          "Schizencephaly": {},
+          "Sturge-Weber-syndrome": {},
+          "Tuberous-sclerosis": {
+            "Cortical-hamartomas": {}
+          }
+        },
+        "Post-inflammatory-or-infectious-lesion": {
+          "Post-abscess": {}
+        },
+        "Post-traumatic-or-post-ischemic-lesion": {
+          "Post-operative": {},
+          "Post-radiation": {},
+          "Post-stroke": {}
+        },
+        "Stroke-or-haemorrhage": {
+          "Arterial-stroke-including-lacunar": {},
+          "Flow-void-loss": {},
+          "Haemorrhage-Other": {},
+          "Intraparenchymal-haemorrhage": {},
+          "Intraventricular-haemorrhage": {},
+          "Subarachnoid-haemorrhage": {},
+          "Subdural-haemorrhage": {},
+          "Venous-stroke": {}
+        },
+        "Structural-abnormalities": {
+          "Chiari-malformation": {},
+          "Inferior-tonsillar-herniation": {}
+        },
+        "Tumours": {
+          "Primary": {},
+          "Secondary": {},
+          "Low-grade-tumour": {
+            "Aplastic-tumour": {},
+            "Astrocytoma": {
+              "Pleomorphic-astrocytoma": {},
+              "Diffuse-astrocytoma": {}
+            },
+            "DNET": {},
+            "Ganglioglioma": {},
+            "Oligodendroglioma": {}
+          }
+        },
+        "Vascular-malformation": {
+          "Arteriovenous-malformation": {},
+          "Cavernous-angioma": {},
+          "Cerebral-aneurysm": {},
+          "Developmental-venous-anomaly": {}
+        }
+      },
+      "Location-Terms": {
+        "Lateralisation": {
+          "Left-Lateralisation": {},
+          "Right-Lateralisation": {},
+          "Bilateral": {}
+        },
+        "Distribution": {
+          "Unifocal": {},
+          "Multifocal": {},
+          "Multilobar": {},
+          "Hemispheric": {},
+          "Diffuse-or-generalized": {}
+        },
+        "Location": {
+          "Cortical": {
+            "Frontal": {
+              "Dorsolateral-frontal": {},
+              "Frontal-polar": {},
+              "Mesial-frontal": {},
+              "Orbital-frontal": {}
+            },
+            "Parietal": {
+              "Dorsolateral-parietal": {},
+              "Mesial-parietal": {}
+            },
+            "Insula": {},
+            "Temporal": {
+              "Lateral-temporal": {},
+              "Mesial-temporal": {},
+              "Temporal-polar": {}
+            },
+            "Occipital": {
+              "Basal-occipital": {},
+              "Lateral-occipital": {},
+              "Mesial-occipital": {}
+            }
+          },
+          "Subcortical": {
+            "Basal-ganglia": {},
+            "Callosum": {},
+            "Grey-white-matter-junction": {},
+            "Periventricular": {},
+            "Thalamus": {},
+            "Deep-white-matter": {},
+            "White-matter-other": {}
+          },
+          "Cerebellum": {},
+          "Brainstem": {
+            "Medulla": {},
+            "Midbrain": {},
+            "Pons": {}
+          },
+          "Meningeal": {}
+        }
+      },
+      "Other-Features": {
+        "Acute-intracranial-abnormality": {},
+        "Agenesis": {},
+        "Arachnoid-cyst": {},
+        "Atrophy": {},
+        "Calcification": {},
+        "Contrast-enhancement": {},
+        "CSF-space-prominence": {},
+        "Demyelination": {},
+        "Diffusion-restriction": {},
+        "Dysgenesis": {},
+        "Hydrocephalus": {},
+        "Hygroma": {},
+        "Hyperintense-T2-or-FLAIR-signal": {},
+        "Hypertrophy": {},
+        "Mass-effect": {},
+        "Microencephaly": {},
+        "Oedema": {},
+        "Small-vessel-ischemic-change": {},
+        "Thrombus": {},
+        "Ventriculomegaly": {},
+        "Virchow-Robinson-space": {}
+      },
+      "hedging": {
+        "possible-cue": {},
+        "unlikely-or-negated-cue": {}
+      }
+    },
+    "relations": {
+      "<LESION>": "Developmental-malformation|Hypothalamic-hamartoma|Dysplasia|Early-life-destructive-lesion|Porencephaly|Ulegyria|Hemiatrophy|Leukomalacia|Perinatal-ischemic-lesion|Encephalocele|Gliosis-or-encephalomalacia-not-otherwise-specified|Hippocampal-sclerosis|Abnormal-hippocampal-morphology|Flattened-or-inclined-hippocampus|Hippocampal-atrophy|Hippocampal-hyperintense-T2-or-FLAIR-signal|Loss-of-normal-internal-hippocampal-structure|Inflammatory-infectious|Abscess|Cysticercosis|Encephalitis-Other|Limbic-encephalitis|Rasmussen-encephalitis|Sarcoidosis|Vasculitis|Lesion|Lipoma|Other-cystic-lesion|Unspecified-lesion|Malformation-of-cortical-development|Focal-cortical-dysplasia|Abnormal-gyrus|Bottom-of-the-sulcus-dysplasia|Cortical-thickening|Poor-grey-white-matter-delineation|Hemimegalencephaly|Heterotopia|Grey-matter-heterotopia|Periventricular-nodular-heterotopia|Subcortical-laminar-heterotopia|Subcortical-nodular-heterotopia|Lissencephaly-agyria-pachygyria|Pachymicrogyria|Polymicrogyria|Schizencephaly|Sturge-Weber-syndrome|Tuberous-sclerosis|Cortical-hamartomas|Post-inflammatory-or-infectious-lesion|Post-abscess|Post-traumatic-or-post-ischemic-lesion|Post-operative|Post-radiation|Post-stroke|Stroke-or-haemorrhage|Arterial-stroke-including-lacunar|Flow-void-loss|Haemorrhage-Other|Intraparenchymal-haemorrhage|Intraventricular-haemorrhage|Subarachnoid-haemorrhage|Subdural-haemorrhage|Venous-stroke|Structural-abnormalities|Chiari-malformation|Inferior-tonsillar-herniation|Tumours|Primary|Secondary|Low-grade-tumour|Aplastic-tumour|Astrocytoma|Pleomorphic-astrocytoma|Diffuse-astrocytoma|DNET|Ganglioglioma|Oligodendroglioma|Vascular-malformation|Arteriovenous-malformation|Cavernous-angioma|Cerebral-aneurysm|Developmental-venous-anomaly|Location|Lateralisation|Left-Lateralisation|Right--Lateralisation|Bilateral|Distribution|Unifocal|Multifocal|Multilobar|Hemispheric|Diffuse-or-generalized",
+      "<LOCATION>": "Cortical|Frontal|Dorsolateral-frontal|Frontal-polar|Mesial-frontal|Orbital-frontal|Parietal|Dorsolateral-parietal|Mesial-parietal|Insula|Temporal|Lateral-temporal|Mesial-temporal|Temporal-polar|Occipital|Basal-occipital|Lateral-occipital|Mesial-occipital|Subcortical|Basal-ganglia|Callosum|Grey-white-matter-junction|Periventricular|Thalamus|Deep-white-matter|White-matter-other|Cerebellum|Brainstem|Medulla|Midbrain|Pons|Meningeal",
+      "<FEATURE>": "Other-Features|Acute-intracranial-abnormality|Agenesis|Arachnoid-cyst|Atrophy|Calcification|Contrast-enhancement|CSF-space-prominence|Demyelination|Diffusion-restriction|Dysgenesis|Hydrocephalus|Hygroma|Hyperintense-T2-or-FLAIR-signal|Hypertrophy|Mass-effect|Microencephaly|Oedema|Small-vessel-ischemic-change|Thrombus|Ventriculomegaly|Virchow-Robinson-space",
+      "<HEDGING>": "possible-cue|unlikely-or-negated-cue",
+      "possible-rel": "Arg1:possible-cue, Arg2:<LESION>|<FEATURE>",
+      "unlikely-rel": "Arg1:unlikely-or-negated-cue, Arg2:<LESION>|<FEATURE>",
+      "location-rel": "Arg1:<LOCATION>, Arg2:<LESION>|<FEATURE>",
+      "feature-rel": "Arg1:<FEATURE>, Arg2:<LESION>",
+      "<OVERLAP>": "Arg1:<LESION>|<FEATURE>|<HEDGING>|<LOCATION>, Arg2:<LESION>|<FEATURE>|<HEDGING>|<LOCATION>, <OVL-TYPE>:<ANY>"
+    },
+    "events": {},
+    "attributes": {}
+  }
+  

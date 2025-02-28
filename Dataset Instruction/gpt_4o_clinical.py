@@ -15,22 +15,15 @@ OPENAI_UPLOAD_URL = "https://api.openai.com/v1/files"
 
 # MRI Image Paths (update paths as needed)
 IMAGE_FOLDERS = {
-    "FLAIR": "/mnt/khoa/baseline/dataset/FLAIR",
-    "T1": "/mnt/khoa/baseline/dataset/T1",
-    "T2": "/mnt/khoa/baseline/dataset/T2"
+    "FLAIR": "your_path/FLAIR",
+    "T1": "your_path/T1",
+    "T2": "your_path/T2"
 }
 
 # Temporary output folder for PNG images
-OUTPUT_IMAGE_FOLDER = "/mnt/khoa/baseline/dataset/processed_images"
+OUTPUT_IMAGE_FOLDER = "your_path"
 os.makedirs(OUTPUT_IMAGE_FOLDER, exist_ok=True)
 
-# Read annotation tree from file (if available)
-# ANNOTATION_TREE_FILE = "/mnt/khoa/baseline/instruction_dataset/filtered_annotation_mri.conf"
-# if os.path.exists(ANNOTATION_TREE_FILE):
-#     with open(ANNOTATION_TREE_FILE, "r", encoding="utf-8") as f:
-#         annotation_tree_text = f.read()
-# else:
-#     annotation_tree_text = "Annotation tree not available."
 
 def load_and_preprocess_nii_image(file_path):
     """Loads a .nii.gz file, extracts the middle slice, rotates it, and saves it as PNG."""

@@ -29,8 +29,8 @@ from llava.model.builder import load_pretrained_model
 
 # Configuration
 config = {
-    "smiles_embedding_path": "/mnt/khoa/baseline/smiles_moler_embedding.json",
-    "results_dir": "/mnt/khoa/baseline/results/integration",
+    "smiles_embedding_path": "your_path/smiles_embeddings.json",
+    "results_dir": "your_path",
     "max_text_length": 256,
     "target_size": 224  # For classification, matches CombinedClassifier expectation
 }
@@ -266,7 +266,7 @@ clinical_encoder = ClinicalEncoder(input_dim=len(get_drug_embedding("LEV"))).to(
 combined_model = CombinedClassifier(image_encoder, clinical_encoder, text_encoder).to(device)
 
 # Load trained model state (e.g., from fold 5)
-model_path = "/mnt/khoa/baseline/results/integration/new_combined_model_fold_1.pt"
+model_path = "your_path/combined_classifier_fold_5.pth"
 if os.path.exists(model_path):
     combined_model.load_state_dict(torch.load(model_path, map_location=device, weights_only=True))
     combined_model.eval()
@@ -330,9 +330,9 @@ def infer_sample(mri_paths, asm="LEV", subject_id="unknown", question_text=None)
 if __name__ == "__main__":
     # Sample inputs (replace with actual paths)
     sample_mri_paths = {
-        "FLAIR": "",
-        "T1": "/mnt/khoa/baseline/dataset/fold_2/train/T1/ALB0005_T1.nii.gz",
-        "T2": ""
+        "FLAIR": "your_path/FLAIR.nii.gz",
+        "T1": "your_path/T1.nii.gz",
+        "T2": "your_path/T2.nii.gz"
     }
     sample_asm = "LEV"
     sample_subject_id = "ALB0005"

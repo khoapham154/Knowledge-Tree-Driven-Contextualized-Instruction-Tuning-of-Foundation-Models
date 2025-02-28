@@ -190,8 +190,8 @@ def preprocess_fold_data_text_only(fold_num):
 # -----------------------------------------
 # Paths and Experiment Folder Setup
 # -----------------------------------------
-fold_json_dir = "/mnt/hdd/sda/khoa/baseline/dataset/json"
-output_dir = "/mnt/hdd/sda/khoa/baseline/results"
+fold_json_dir = "your_path"
+output_dir = "your_path"
 experiment_name = config["experiment_name"]  # e.g., "text_only_experiment_1"
 results_dir = os.path.join(output_dir, experiment_name)
 os.makedirs(results_dir, exist_ok=True)

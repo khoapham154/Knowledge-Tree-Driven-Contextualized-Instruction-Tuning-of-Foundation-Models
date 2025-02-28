@@ -14,8 +14,8 @@ from PIL import Image
 # =============================================================================
 config = {
     "max_text_length": 512,
-    "qa_json": "/mnt/khoa/baseline/instruction_dataset/QA.json",
-    "llava_med_path": "/mnt/khoa/LLaVA-Med",
+    "qa_json": "your_path/qa_data.json",
+    "llava_med_path": "your_path",
     "model_name": "llava-med-v1.5-mistral-7b"
 }
 
@@ -151,7 +151,7 @@ def main():
             })
     
     # Ensure the output directory exists.
-    output_dir = "/mnt/khoa/baseline/mri_results"
+    output_dir = "your_path"
     os.makedirs(output_dir, exist_ok=True)
     output_file = os.path.join(output_dir, "generated_answers_all_3.json")
     

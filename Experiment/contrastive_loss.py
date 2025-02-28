@@ -432,8 +432,8 @@ def preprocess_fold_data(fold_num, fold_json_dir):
 # -----------------------------------------
 # Paths and Experiment Setup
 # -----------------------------------------
-fold_json_dir = "/mnt/hdd/sda/khoa/baseline/dataset/json"  # Adjust as needed
-output_dir = "/mnt/hdd/sda/khoa/baseline/results"
+fold_json_dir = "your_path" 
+output_dir = "your_path"
 experiment_name = config["experiment_name"]
 results_dir = os.path.join(output_dir, experiment_name)
 os.makedirs(results_dir, exist_ok=True)

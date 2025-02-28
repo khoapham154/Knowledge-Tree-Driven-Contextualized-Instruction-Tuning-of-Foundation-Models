@@ -41,10 +41,10 @@ config = {
     "epochs": 10,
     "num_folds": 5,
     "steepness_factor": 5.0,
-    "fold_json_dir": "/mnt/khoa/baseline/dataset/json",
-    "results_dir": "/mnt/khoa/baseline/results/integration",
-    "gpt_answers_file": "/mnt/khoa/baseline/mri_results/GPT_generated_answers_all_1.json",
-    "smiles_embedding_path": "/mnt/khoa/baseline/smiles_moler_embedding.json",
+    "fold_json_dir": "your_path/fold_data",
+    "results_dir": "your_path/results",
+    "gpt_answers_file": "your_path/gpt_answers.json",
+    "smiles_embedding_path": "your_path/smiles_embeddings.json",
     "max_text_length": 256
 }
 os.makedirs(config["results_dir"], exist_ok=True)

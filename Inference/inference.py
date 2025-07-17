@@ -40,7 +40,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Using device: {device}")
 
 # Load LLaVA-Med Model, Tokenizer, and Image Processor
-model_path = "microsoft/llava-med-v1.5-mistral-7b"
+model_path = "your_path/llava-med-v1.5-mistral-7b"
 tokenizer, llava_model, image_processor, context_len = load_pretrained_model(
     model_path=model_path,
     model_base=None,
